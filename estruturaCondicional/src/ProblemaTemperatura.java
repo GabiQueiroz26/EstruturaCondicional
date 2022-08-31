@@ -12,8 +12,6 @@ public class ProblemaTemperatura {
 
         System.out.println("Você vai digitar a temperatura em qual escala (C/F)? ");
         letra = sc.next().charAt(0);
-        //System.out.printf("Digite a temperatura em Fahrenheit ou Celsius: ");
-        //temperatura = sc.nextDouble();
 
         if(letra == 'F' || letra == 'f'){
             System.out.printf("Digite a temperatura em Fahrenheit: ");
